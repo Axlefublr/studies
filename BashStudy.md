@@ -130,3 +130,10 @@ This way you can easily set up a few commands that might take a while and not ha
 ## Copying last command's argument
 
 Press `esc .` to paste the last command's argument at the cursor's position
+
+## Resursive folder creation
+
+`mkdir -p folder/folder/folder`
+
+Lets you create multiple folders at a time
+

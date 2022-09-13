@@ -96,7 +96,7 @@ git reset .
 git reset file
 ```
 
-> you can multiline the commit message
+## You can multiline the commit message
 
 ## New branch
 
