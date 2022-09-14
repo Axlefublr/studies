@@ -4,9 +4,10 @@
 
 ## Variables
 
-`name="value"`
-
-`$name`
+```sh
+name="value"
+$name
+```
 
 ## Reading the output of a command as a variable
 
