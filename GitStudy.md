@@ -48,20 +48,6 @@ git stash apply indexNumber
 
 `git branch -M newName`
 
-## To merge your different branch commits into the main branch
-
-`git rebase --interactive`
-
-Then you have the option to squash some commits using squash instead of pick
-
-Fixup -- if you don't want the commit messages to be squashed
-
-Matter of fact, you can use either --fixup of --squash while commiting in the first place
-
-Then you rebase using
-
-`git rebase -i --autosquash`
-
 ## To restore code to the state of the remote repo
 
 ```
@@ -89,7 +75,7 @@ git reset --hard origin/main
 
 `rm -rf .git`
 
-## Unstage stages files
+## Unstage staged files
 
 ```
 git reset .
