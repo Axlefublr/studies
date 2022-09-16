@@ -6,3 +6,7 @@ Runner.instance_.gameOver = () => {}
 ## Windows virus scanner
 
 `mrt` in powershell
+
+## Close a process
+
+`taskkill /f /im name.exe`
