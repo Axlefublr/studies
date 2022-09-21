@@ -10,3 +10,11 @@ Runner.instance_.gameOver = () => {}
 ## Close a process
 
 `taskkill /f /im name.exe`
+
+## Escaping # in urls
+
+`%23`
+
+## Cunningham's law
+
+The best way to get the right answer on the Internet is not to ask a question; it's to post the wrong answer
