@@ -138,3 +138,6 @@ Press `esc .` to paste the last command's argument at the cursor's position
 
 Lets you create multiple folders at a time
 
+## See the top processes
+
+`top`
