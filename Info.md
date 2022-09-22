@@ -11,6 +11,12 @@ Runner.instance_.gameOver = () => {}
 
 `taskkill /f /im name.exe`
 
+### In bash
+
+`pkill name.exe`
+
+`kill pid`
+
 ## Escaping # in urls
 
 `%23`
