@@ -141,3 +141,7 @@ Lets you create multiple folders at a time
 ## See the top processes
 
 `top`
+
+## See the number of the last error
+
+`echo $?`
