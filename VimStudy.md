@@ -94,6 +94,14 @@ O - insert on the previous (new) line
 
 q - to then exit
 
+### Moving
+
+H - go to the top of the screen
+
+M - go to the middle of the screen
+
+L - go to the bottom of the screen
+
 @* - to execute a macro
 
 . - repeat last command
