@@ -1,16 +1,20 @@
-## General rules
+### `:reg` - register of deletions
 
-A key typed twice affects the whole line
+" - access the register
 
-## Keys
+"+ - to access the actual clipboard
 
-hjkl - arrow keys
+"o - the last thing just yanked, not deleted
 
-gj - treat wrapped line as multiple lines
+### !sort - sorts selected lines
 
-gk - treat wrapped line as multiple lines
+### :w path - write and move the file elsewhere
 
-## Commands
+### hjkl - arrow keys
+
+### gj - treat wrapped line as multiple lines
+
+### gk - treat wrapped line as multiple lines
 
 ### replace
 
@@ -20,35 +24,25 @@ s - substitute
 
 `%s/this/toThis/g` - replace
 
-g& - run last replace globally
-
-## `:reg` - register of deletions
-
-" - access the register
-
-"+ - to access the actual clipboard
-
-"o - the last thing just yanked, not deleted
+#### g& - run last replace globally
 
 ### w - beginning of next word
 
-W - the only word separator is whitespace
+### W - the only word separator is whitespace
 
 ### e - end of current word
 
-E - the only word separator is whitespace
+### E - the only word separator is whitespace
 
 ### b - beginning of previous word
 
-B - the only word separator is whitespace
+### B - the only word separator is whitespace
 
 ### d - delete
 
-dd - delete the line
+### dd - delete the line
 
-D - delete the rest of the line
-
-### g - go
+### D - delete the rest of the line
 
 gx - go to link
 
@@ -66,11 +60,15 @@ gD - go to global declaration
 
 ### t - jump to before symbol after the cursor
 
-T - jump to before symbol before the cursor
+### T - jump to before symbol before the cursor
 
 ### f - jump to on the symbol after the cursor
 
-F - jump to on the symbol before the cursor
+### F - jump to on the symbol before the cursor
+
+### ; - repeat the last f/t command forward
+
+### , - repeat the last f/t command backward
 
 ### i - insert before the cursor
 
@@ -132,7 +130,7 @@ g0 - treat wrapped line as multiple lines
 
 g_ - go to the last non-blank character of the line
 
-## Joining / unwrapping lines
+### Joining / unwrapping lines
 
 J - joins lines with a space in between
 
@@ -140,7 +138,7 @@ gJ - joins lines without a space in between
 
 gq - format a wrapped line to be multiple lines
 
-## Capitalization
+### Capitalization
 
 gu - uncapitalize
 
@@ -149,6 +147,18 @@ gU - capitalize
 ~ - switch capitalization of the highlighted char
 
 g~ - switch, but you give a text object to it
+
+### x - cut the highlighted character
+
+xp - transpose two characters
+
+### ^o - go back in history
+
+^i - go forward in history
+
+### :r! command
+
+pastes the output of the command
 
 @* - to execute a macro
 
