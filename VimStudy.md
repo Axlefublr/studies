@@ -48,6 +48,12 @@ gg - beggining of the file
 
 G - end of the file
 
+ge - go to the end of the last word
+
+gd - go to local declaration
+
+gD - go to global declaration
+
 ### t - jump to before symbol after the cursor
 
 T - jump to before symbol before the cursor
@@ -102,6 +108,14 @@ M - go to the middle of the screen
 
 L - go to the bottom of the screen
 
+\$ - end of the line
+
+0 - start of the line
+
+^ - go to the first non-blank character of the line
+
+g_ - go to the last non-blank character of the line
+
 @* - to execute a macro
 
 . - repeat last command
@@ -112,15 +126,11 @@ u - undo
 
 r - replace with |.|
 
-\$ - end of the line
-
-0 - start of the line
-
 c - change
 
 % - jump to bracket
 
-123G - go to absolute line
+123G / 123gg - go to absolute line
 
 << >> - indent / outdent line
 
