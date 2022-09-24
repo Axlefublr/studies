@@ -6,6 +6,10 @@ A key typed twice affects the whole line
 
 hjkl - arrow keys
 
+gj - treat wrapped line as multiple lines
+
+gk - treat wrapped line as multiple lines
+
 ## Commands
 
 ### replace
@@ -15,6 +19,8 @@ hjkl - arrow keys
 s - substitute
 
 `%s/this/toThis/g` - replace
+
+g& - run last replace globally
 
 ## `:reg` - register of deletions
 
@@ -43,6 +49,10 @@ dd - delete the line
 D - delete the rest of the line
 
 ### g - go
+
+gx - go to link
+
+gf - when focused on a file path, open it
 
 gg - beggining of the file
 
@@ -88,6 +98,8 @@ V - select lines
 
 ^v - column select
 
+gv - reselect the last selection
+
 ### o - insert on the next (new) line
 
 O - insert on the previous (new) line
@@ -110,11 +122,33 @@ L - go to the bottom of the screen
 
 \$ - end of the line
 
+g$ - treat wrapped line as multiple lines
+
 0 - start of the line
+
+g0 - treat wrapped line as multiple lines
 
 ^ - go to the first non-blank character of the line
 
 g_ - go to the last non-blank character of the line
+
+## Joining / unwrapping lines
+
+J - joins lines with a space in between
+
+gJ - joins lines without a space in between
+
+gq - format a wrapped line to be multiple lines
+
+## Capitalization
+
+gu - uncapitalize
+
+gU - capitalize
+
+~ - switch capitalization of the highlighted char
+
+g~ - switch, but you give a text object to it
 
 @* - to execute a macro
 
