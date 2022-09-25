@@ -44,19 +44,19 @@ s - substitute
 
 ### D - delete the rest of the line
 
-gx - go to link
+### gx - go to link
 
-gf - when focused on a file path, open it
+### gf - when focused on a file path, open it
 
-gg - beggining of the file
+### gg - beggining of the file
 
-G - end of the file
+### G - end of the file
 
-ge - go to the end of the last word
+### ge - go to the end of the last word
 
-gd - go to local declaration
+### gd - go to local declaration
 
-gD - go to global declaration
+### gD - go to global declaration
 
 ### t - jump to before symbol after the cursor
 
@@ -84,81 +84,77 @@ i - inside
 
 ### S - insert at instead the current line
 
-### / - search
+### / ? - search forwards / backwards
 
-n - go to next search result
+### n - go to next search result
 
-N - go to previous search result
+### N - go to prev search result
 
-? - search backwards
-
-\# * - go to next / prev symbol
+### # * - go to next / prev symbol
 
 ### v - visual mode
 
-V - select lines
+### V - select lines
 
-^v - column select
+### ^v - column select
 
-gv - reselect the last selection
+### gv - reselect the last selection
 
 ### o - insert on the next (new) line
 
-O - insert on the previous (new) line
+### O - insert on the previous (new) line
 
 ### m* - mark place
 
-'* - go to place
+### '* - go to place
+
+### `* - go to place, memorized column
 
 ### q* - to record a macro
 
 q - to then exit
 
-### Moving
+### H - go to the top of the screen
 
-H - go to the top of the screen
+### M - go to the middle of the screen
 
-M - go to the middle of the screen
+### L - go to the bottom of the screen
 
-L - go to the bottom of the screen
+### \$ - end of the line
 
-\$ - end of the line
+### g$ - treat wrapped line as multiple lines
 
-g$ - treat wrapped line as multiple lines
+### 0 - start of the line
 
-0 - start of the line
+### g0 - treat wrapped line as multiple lines
 
-g0 - treat wrapped line as multiple lines
+### ^ - go to the first non-blank character of the line
 
-^ - go to the first non-blank character of the line
+### g_ - go to the last non-blank character of the line
 
-g_ - go to the last non-blank character of the line
+### J - joins lines with a space in between
 
-### Joining / unwrapping lines
+### gJ - joins lines without a space in between
 
-J - joins lines with a space in between
+### gq - format a wrapped line to be multiple lines
 
-gJ - joins lines without a space in between
+### gu - uncapitalize
 
-gq - format a wrapped line to be multiple lines
+### gU - capitalize
 
-### Capitalization
+### ~ - switch capitalization of the highlighted char
 
-gu - uncapitalize
-
-gU - capitalize
-
-~ - switch capitalization of the highlighted char
-
-g~ - switch, but you give a text object to it
+### g~ - switch, but you give a text object to it
 
 ### x - cut the highlighted character
 
-xp - transpose two characters
+### X - cut the character before the highlighted one
+
+## xp - transpose two characters
 
 ### ^o - go back in history
 
-^i - go forward in history
+## ^i - go forward in history
 
 ### :r! command
 
@@ -168,20 +164,41 @@ pastes the output of the command
 
 . - repeat last command
 
-u - undo
+### u - undo
 
-^r - redo
+### U - undo the line to the state it was in when the cursor was moved to it
 
-r - replace with |.|
+### ^r - redo
 
-c - change
+### r* - replace with *
 
-% - jump to bracket
+### c - change
 
-123G / 123gg - go to absolute line
+### C - change until the end of the line
 
-<< >> - indent / outdent line
+### % - jump to bracket
 
-== - autoindent
+### 123G / 123gg - go to absolute line
 
-zz - scroll to cursor
+### << >> - indent / outdent line
+
+### == - autoindent
+
+### zz - scroll to cursor
+
+### ( - go to the last sentence
+
+### ) - go to the prev sentence
+
+### - - go to first non-whitespace of previous line
+
+### + - go to first non-whitespace of next line
+
+### [ - go to previous {} section
+
+### ] - go to next {} section
+
+### { - go to prev blank line
+
+### } - go to next blank line
+
