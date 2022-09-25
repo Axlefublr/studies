@@ -72,13 +72,17 @@ gD - go to global declaration
 
 ### i - insert before the cursor
 
-I - insert at the start of the line
+### I - insert at the start of the line
 
 i - inside
 
 ### a - insert after the cursor
 
-A - insert at the end of the line
+### A - insert at the end of the line
+
+### s - insert at instead the character highlighted
+
+### S - insert at instead the current line
 
 ### / - search
 
