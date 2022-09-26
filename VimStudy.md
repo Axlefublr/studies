@@ -2,9 +2,9 @@
 
 " - access the register
 
-"+ - to access the actual clipboard
+### "+ - to access the actual clipboard
 
-"o - the last thing just yanked, not deleted
+### "o - the last thing just yanked, not deleted
 
 ### !sort - sorts selected lines
 
