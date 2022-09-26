@@ -28,3 +28,11 @@ The best way to get the right answer on the Internet is not to ask a question; i
 ## SendMessage to a different script
 
 is in the examples of the docs to OnMessage
+
+## Allocate a console to a process
+
+https://learn.microsoft.com/en-us/windows/console/allocconsole
+
+The ahk library for it
+
+https://github.com/Onimuru/Console
