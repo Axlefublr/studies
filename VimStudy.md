@@ -150,11 +150,11 @@ q - to then exit
 
 ### X - cut the character before the highlighted one
 
-## xp - transpose two characters
+### xp - transpose two characters
 
 ### ^o - go back in history
 
-## ^i - go forward in history
+### ^i - go forward in history
 
 ### :r! command
 
@@ -202,3 +202,8 @@ pastes the output of the command
 
 ### } - go to next blank line
 
+### ^f - down a screen
+
+### ^b - up a screen
+
+### ^t - go to the last edit location
