@@ -33,6 +33,4 @@ is in the examples of the docs to OnMessage
 
 https://learn.microsoft.com/en-us/windows/console/allocconsole
 
-The ahk library for it
-
-https://github.com/Onimuru/Console
+[The ahk library for it](https://github.com/Onimuru/Console) (v2 beta 9)
