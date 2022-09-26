@@ -212,4 +212,6 @@ pastes the output of the command
 
 a-z all lowercase marks (like regex)
 
-### :noh - remove highlighting of previous search 
+### :noh - remove highlighting of previous search
+
+### cgn - change current match
