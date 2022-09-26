@@ -211,3 +211,5 @@ pastes the output of the command
 ### :delm a - to delete the marker a
 
 a-z all lowercase marks (like regex)
+
+### :noh - remove highlighting of previous search 
