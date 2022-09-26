@@ -160,9 +160,9 @@ q - to then exit
 
 pastes the output of the command
 
-@* - to execute a macro
+### @* - to execute a macro
 
-. - repeat last command
+### . - repeat last command
 
 ### u - undo
 
