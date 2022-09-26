@@ -207,3 +207,7 @@ pastes the output of the command
 ### ^b - up a screen
 
 ### ^t - go to the last edit location
+
+### :delm a - to delete the marker a
+
+a-z all lowercase marks (like regex)
