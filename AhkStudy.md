@@ -15,3 +15,7 @@ Even though it's a plus, it really means -
 ## Window doesn't have borders
 
 `-E0x200`
+
+## SendMessage to a different script
+
+is in the examples of the docs to OnMessage
