@@ -32,3 +32,7 @@ random.NextDouble();
 ```
 
 With no parameters, generates from 1 to max int
+
+## fstrings in C#
+
+`$"This is text, this is a {variable}"`
