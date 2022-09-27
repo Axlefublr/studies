@@ -23,3 +23,12 @@ int num = Convert.ToInt32(nummy);
 
 By using the `GetType()` method, you can see what type something is, but it's not as legible as `int` or `string`, it's `System.Int32` and the like
 
+## Random requires an object
+
+```cs
+Random random = new Random();
+random.Next(); //generate an int
+random.NextDouble();
+```
+
+With no parameters, generates from 1 to max int
