@@ -221,3 +221,5 @@ a-z all lowercase marks (like regex)
 ### cs - change *this* character to *that* character (while inside of them)
 
 ### ds - remove *this* wrapping
+
+### vip - select paragraph
