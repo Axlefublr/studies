@@ -215,3 +215,9 @@ a-z all lowercase marks (like regex)
 ### :noh - remove highlighting of previous search
 
 ### cgn - change current match
+
+### ys - surround the text object with a char
+
+### cs - change *this* character to *that* character (while inside of them)
+
+### ds - remove *this* wrapping
