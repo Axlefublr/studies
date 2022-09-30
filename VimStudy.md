@@ -223,3 +223,7 @@ a-z all lowercase marks (like regex)
 ### ds - remove *this* wrapping
 
 ### vip - select paragraph
+
+### gb - add a cursor for the current / next symbol
+
+### gh - show hover tooltip
