@@ -111,6 +111,7 @@ Squashes the multiple commits on the side branch into one commit, as to not clut
 `git config --global credential.helper store`
 
 ## Change the default branch name
+
 `git config --global init.defaultBranch main`
 
 ## Sync the credential manager
