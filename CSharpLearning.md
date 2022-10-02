@@ -36,3 +36,17 @@ With no parameters, generates from 1 to max int
 ## fstrings in C#
 
 `$"This is text, this is a {variable}"`
+
+## Creating a project
+
+`dotnet new sln -n "name"` create a solution (won't create another folder)
+
+`dotnet new console -n "name"` create a project folder (will create another folder named as the name)
+
+`dotnet new classlib -n "name"` class library
+
+`dotnet sln solutionFile.sln add **/*.csproj` add all the projects below the current folder into the solution
+
+`dotnet add Main/Main.csproj reference Library/Library.csproj` add a reference to the library project to the main project
+
+`dotnet add package PackageName` to add a nuget package
