@@ -227,3 +227,7 @@ a-z all lowercase marks (like regex)
 ### gb - add a cursor for the current / next symbol
 
 ### gh - show hover tooltip
+
+### :vs - split current editor to the right
+
+### :sp - split current editor down
