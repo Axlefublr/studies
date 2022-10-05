@@ -74,7 +74,9 @@ s - substitute
 
 ### I - insert at the start of the line
 
-i - inside
+### i - inside
+
+### a - including what it's inside of
 
 ### a - insert after the cursor
 
