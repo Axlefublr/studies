@@ -10,6 +10,12 @@
 
 ### :w path - write and move the file elsewhere
 
+### :x - write, but only if there were changes
+
+### ZZ - same as :x
+
+### ZQ - same as :q!
+
 ### hjkl - arrow keys
 
 ### gj - treat wrapped line as multiple lines
@@ -105,6 +111,8 @@ s - substitute
 ### o - insert on the next (new) line
 
 ### O - insert on the previous (new) line
+
+### o + O - move to other end of selection
 
 ### m* - mark place
 
@@ -233,3 +241,5 @@ a-z all lowercase marks (like regex)
 ### :vs - split current editor to the right
 
 ### :sp - split current editor down
+
+### gp / gP - paste and focus cursor after the text
