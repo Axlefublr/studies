@@ -1,245 +1,295 @@
-### `:reg` - register of deletions
+## Registers
 
-" - access the register
+`:reg` - register of deletions
 
-### "+ - to access the actual clipboard
+`"` - access the register
 
-### "o - the last thing just yanked, not deleted
+`"+` - to access the actual clipboard
 
-### !sort - sorts selected lines
+`"0` - the last thing just yanked, not deleted
 
-### :w path - write and move the file elsewhere
+## Writing and saving
 
-### :x - write, but only if there were changes
+`:w path` - write and move the file elsewhere
 
-### ZZ - same as :x
+`:x` - write, but only if there were changes
 
-### ZQ - same as :q!
+`ZZ` - same as :x
 
-### hjkl - arrow keys
+`ZQ` - same as :q!
 
-### gj - treat wrapped line as multiple lines
+## Moving around
 
-### gk - treat wrapped line as multiple lines
+`hjkl` - arrow keys
 
-### replace
+`gj` - treat wrapped line as multiple lines
 
-% - whole file, not just selection
+`gk` - treat wrapped line as multiple lines
 
-s - substitute
+`w` - beginning of next word
+
+`W` - the only word separator is whitespace
+
+`e` - end of current word
+
+`E` - the only word separator is whitespace
+
+`b` - beginning of previous word
+
+`B` - the only word separator is whitespace
+
+`gg` - beggining of the file
+
+`G` - end of the file
+
+`ge` - go to the end of the last word
+
+`$` - end of the line
+
+`g$` - treat wrapped line as multiple lines
+
+`0` - start of the line
+
+`g0` - treat wrapped line as multiple lines
+
+`^` - go to the first non-blank character of the line
+
+`g_` - go to the last non-blank character of the line
+
+## Search
+
+`/?` - search forwards / backwards
+
+`n` - go to next search result
+
+`N` - go to prev search result
+
+`#*` - go to next / prev symbol
+
+`gn` - text object of the next match
+
+`gN` - text object of the prev match
+
+`cgn` - change next match
+
+`dgn` - delete next match
+
+`ygn` - yank next match
+
+## Replace
+
+`%` - whole file, not just selection
+
+`s` - substitute
 
 `%s/this/toThis/g` - replace
 
-#### g& - run last replace globally
+## Cut, paste, yank
 
-### w - beginning of next word
+`d` - delete
 
-### W - the only word separator is whitespace
+`dd` - delete the line
 
-### e - end of current word
+`D` - delete the rest of the line
 
-### E - the only word separator is whitespace
+`x` - cut the highlighted character
 
-### b - beginning of previous word
+`X` - cut the character before the highlighted one
 
-### B - the only word separator is whitespace
+`xp` - transpose two characters
 
-### d - delete
+`gp / gP` - paste and focus cursor after the text
 
-### dd - delete the line
+## g Special commands
 
-### D - delete the rest of the line
+`gx` - go to link
 
-### gx - go to link
+`gf` - when focused on a file path, open it
 
-### gf - when focused on a file path, open it
+`gd` - go to local declaration
 
-### gg - beggining of the file
+`gD` - go to global declaration
 
-### G - end of the file
+## Jumping
 
-### ge - go to the end of the last word
+`t` - jump to before symbol after the cursor
 
-### gd - go to local declaration
+`T` - jump to before symbol before the cursor
 
-### gD - go to global declaration
+`f` - jump to on the symbol after the cursor
 
-### t - jump to before symbol after the cursor
+`F` - jump to on the symbol before the cursor
 
-### T - jump to before symbol before the cursor
+`;` - repeat the last f/t command forward
 
-### f - jump to on the symbol after the cursor
+`,` - repeat the last f/t command backward
 
-### F - jump to on the symbol before the cursor
+`%` - jump to bracket
 
-### ; - repeat the last f/t command forward
+`123G / 123gg` - go to absolute line
 
-### , - repeat the last f/t command backward
+## Inserting
 
-### i - insert before the cursor
+`i` - insert before the cursor
 
-### I - insert at the start of the line
+`I` - insert at the start of the line
 
-### i - inside
+`i` - inside
 
-### a - including what it's inside of
+`a` - including what it's inside of
 
-### a - insert after the cursor
+`a` - insert after the cursor
 
-### A - insert at the end of the line
+`A` - insert at the end of the line
 
-### s - insert at instead the character highlighted
+`s` - insert at instead the character highlighted
 
-### S - insert at instead the current line
+`S` - insert at instead the current line
 
-### / ? - search forwards / backwards
+`o` - insert on the next (new) line
 
-### n - go to next search result
+`O` - insert on the previous (new) line
 
-### N - go to prev search result
+`r*` - replace with *
 
-### # * - go to next / prev symbol
+`c` - change
 
-### v - visual mode
+`C` - change until the end of the line
 
-### V - select lines
+## Visual mode
 
-### ^v - column select
+`v` - visual mode
 
-### gv - reselect the last selection
+`V` - select lines
 
-### o - insert on the next (new) line
+`^v` - column select
 
-### O - insert on the previous (new) line
+`gv` - reselect the last selection
 
-### o + O - move to other end of selection
+`o` or `O` - move to other end of selection
 
-### m* - mark place
+`vip` - select paragraph
 
-### '* - go to place
+`vap` - select paragraph + outside whitespace
 
-### `* - go to place, memorized column
+## Marking
 
-### q* - to record a macro
+`m*` - mark place
 
-q - to then exit
+`'*` - go to place
 
-### H - go to the top of the screen
+`* - go to place, memorized column
 
-### M - go to the middle of the screen
+`^o` - go back in history
 
-### L - go to the bottom of the screen
+`^i` - go forward in history
 
-### \$ - end of the line
+`:delm a` - to delete the marker a
 
-### g$ - treat wrapped line as multiple lines
+`:delm a-z` - all lowercase marks (like regex)
 
-### 0 - start of the line
+`:noh` - remove highlighting of previous search
 
-### g0 - treat wrapped line as multiple lines
+## Macros
 
-### ^ - go to the first non-blank character of the line
+`q*` - to record a macro
 
-### g_ - go to the last non-blank character of the line
+`q` - to then exit
 
-### J - joins lines with a space in between
+`@*` - to execute a macro
 
-### gJ - joins lines without a space in between
+`@@` - execute previous macro
 
-### gq - format a wrapped line to be multiple lines
+## Scrolling
 
-### gu - uncapitalize
+`H` - go to the top of the screen
 
-### gU - capitalize
+`M` - go to the middle of the screen
 
-### ~ - switch capitalization of the highlighted char
+`L` - go to the bottom of the screen
 
-### g~ - switch, but you give a text object to it
+`zz` - scroll to cursor
 
-### x - cut the highlighted character
+`zb` - scroll curr line to bottom
 
-### X - cut the character before the highlighted one
+`zt` - scroll curr line to top
 
-### xp - transpose two characters
+`^f` - down a screen
 
-### ^o - go back in history
+`^b` - up a screen
 
-### ^i - go forward in history
+`^d` - down half a screen
 
-### :r! command
+`^u` - up half a screen
 
-pastes the output of the command
+## Formatting
 
-### @* - to execute a macro
+`J` - joins lines with a space in between
 
-### . - repeat last command
+`gJ` - joins lines without a space in between
 
-### u - undo
+`gq` - format a wrapped line to be multiple lines
 
-### U - undo the line to the state it was in when the cursor was moved to it
+## Capitalization
 
-### ^r - redo
+`gu` - uncapitalize
 
-### r* - replace with *
+`gU` - capitalize
 
-### c - change
+`~` - switch capitalization of the highlighted char
 
-### C - change until the end of the line
+`g~` - switch, but you give a text object to it
 
-### % - jump to bracket
+## Undo, redo, do again
 
-### 123G / 123gg - go to absolute line
+`.` - repeat last command
 
-### << >> - indent / outdent line
+`u` - undo
 
-### == - autoindent
+`U` - undo the line to the state it was in when the cursor was moved to it
 
-### zz - scroll to cursor
+`^r` - redo
 
-### ( - go to the last sentence
+## Indenting
 
-### ) - go to the prev sentence
+`<< >>` - indent / outdent line
 
-### - - go to first non-whitespace of previous line
+`==` - autoindent
 
-### + - go to first non-whitespace of next line
+## Go to
 
-### [ - go to previous {} section
+`(` - go to the last sentence
 
-### ] - go to next {} section
+`)` - go to the prev sentence
 
-### { - go to prev blank line
+`-` - go to first non-whitespace of previous line
 
-### } - go to next blank line
+`+` - go to first non-whitespace of next line
 
-### ^f - down a screen
+`[` - go to previous {} section
 
-### ^b - up a screen
+`]` - go to next {} section
 
-### ^t - go to the last edit location
+`{` - go to prev blank line
 
-### :delm a - to delete the marker a
+`}` - go to next blank line
 
-a-z all lowercase marks (like regex)
+## Surround plugin
 
-### :noh - remove highlighting of previous search
+`ys` - surround the text object with a char
 
-### cgn - change current match
+`cs` - change *this* character to *that* character (while inside of them)
 
-### ys - surround the text object with a char
+`ds` - remove *this* wrapping
 
-### cs - change *this* character to *that* character (while inside of them)
+`S` - wrap when in visual mode
 
-### ds - remove *this* wrapping
+## Vs code special
 
-### vip - select paragraph
+`gh` - show hover tooltip
 
-### gb - add a cursor for the current / next symbol
+## Commands
 
-### gh - show hover tooltip
+`:vs` - split current editor to the right
 
-### :vs - split current editor to the right
-
-### :sp - split current editor down
-
-### gp / gP - paste and focus cursor after the text
+`:sp` - split current editor down
