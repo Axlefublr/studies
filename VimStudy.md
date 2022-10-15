@@ -288,8 +288,66 @@
 
 `gh` - show hover tooltip
 
+Calling a vscode function via a remap:
+
+```vim
+<Cmd>call VSCodeNotify('vscode.command')<CR>
+```
+| Command                                                                                                                                                           | Description                                                                                                                                                                                                |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `VSCodeNotify(command, ...)` <br/> `VSCodeCall(command, ...)`                                                                                                     | Invoke VSCode command with optional arguments.                                                                                                                                                             |
+| `VSCodeNotifyRange(command, line1, line2, leaveSelection ,...)` <br/> `VSCodeCallRange(command, line1, line2, leaveSelection, ...)`                               | Produce linewise VSCode selection from `line1` to `line2` and invoke VSCode command. Setting `leaveSelection` to 1 keeps VSCode selection active after invoking the command.                               |
+| `VSCodeNotifyRangePos(command, line1, line2, pos1, pos2, leaveSelection ,...)` <br/> `VSCodeCallRangePos(command, line1, line2, pos1, pos2, leaveSelection, ...)` | Produce characterwise VSCode selection from `line1.pos1` to `line2.pos2` and invoke VSCode command.                                                                                                        |
+| `VSCodeNotifyVisual(command, leaveSelection, ...)` <br/> `VSCodeCallVisual(command, leaveSelection, ...)`                                                         | Produce linewise (visual line) or characterwise (visual and visual block) selection from visual mode selection and invoke VSCode command. Behaves like `VSCodeNotify/Call` when visual mode is not active. |
+
 ## Commands
 
 `:vs` - split current editor to the right
 
 `:sp` - split current editor down
+
+## Mapping
+
+`map` - is recursive, will be used in other remaps
+
+`noremap` - is not recursive, if you refer to the remapee, its initial function will work instead of the one you made
+
+You can specify letters before `map` / `noremap` / `unmap` (but only one per remap)
+
+* n - Normal
+* v - Visual and Select
+* s - Select
+* x - Visual
+* o - Operator pending
+* ! - Insert and Command-Line (after the keyword instead of before)
+* i - Insert
+* l - Insert, Command-Line and Lang-Arg
+* c - Command-Line
+* t - Terminal-Job
+
+With no specification: Normal, Visual, Select, Operator pending
+
+There can be special arguments to remaps
+
+* `<buffer>`
+* `<nowait>`
+* `<silent>` - Prevents echoing of the command
+* `<special>`
+* `<script>`
+* `<expr>`
+* `<unique>`
+    
+This is the syntax:
+
+```
+map <special-argument> key-trigger key-sequence
+```
+
+## Folding
+
+`za` - toggle fold
+
+`zc` - fold every section
+
+`zo` - unfold every section
+
