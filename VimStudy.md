@@ -347,7 +347,25 @@ map <special-argument> key-trigger key-sequence
 
 `za` - toggle fold
 
-`zc` - fold every section
+`zC` - fold every section
 
-`zo` - unfold every section
+`zO` - unfold every section
 
+`zc` - fold recursively
+
+`zo` - unfold recursively
+
+`zf` - create manual folding section
+
+`zd` - delete all manual folding sections
+
+## VimScript
+
+```
+:command<CR>
+<Cmd>command<CR>
+```
+
+The latter is more performant and doesn't change modes
+
+However, it doesn't support recursive remaps
