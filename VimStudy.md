@@ -92,6 +92,8 @@
 
 `D` - delete the rest of the line
 
+`zd` - delete everything on the line, but keep the line itself
+
 `x` - cut the highlighted character
 
 `X` - cut the character before the highlighted one
@@ -336,7 +338,7 @@ There can be special arguments to remaps
 * `<script>`
 * `<expr>`
 * `<unique>`
-    
+
 This is the syntax:
 
 ```
@@ -351,15 +353,9 @@ map <special-argument> key-trigger key-sequence
 
 `zO` - unfold every section
 
-`zc` - fold recursively
-
-`zo` - unfold recursively
-
-`zf` - create manual folding section
-
-`zd` - delete all manual folding sections
-
 ## VimScript
+
+### `<Cmd>`
 
 ```
 :command<CR>
@@ -369,3 +365,18 @@ map <special-argument> key-trigger key-sequence
 The latter is more performant and doesn't change modes
 
 However, it doesn't support recursive remaps
+
+### Functions
+
+`repeat(expr, count)` concatenates the expression `count` times
+
+`feedkeys(string, [mode])` puts string as keys into the typeahead buffer. use the 'i' flag for
+typebefore
+
+`"\<CR>"` presses Enter, `'\<CR>'` sends the keys literally
+
+`getline('.')` gets the current line
+
+### Built-in vim variables
+
+`v:count1` the count given for the last Normal mode command
