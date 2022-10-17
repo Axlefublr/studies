@@ -56,6 +56,14 @@
 
 `g_` - go to the last non-blank character of the line
 
+`zj` - move to previous folding section
+
+`zk` - move to next folding section
+
+`c[` - go to previous change
+
+`c]` - go to next change
+
 ## Search
 
 `/?` - search forwards / backwards
