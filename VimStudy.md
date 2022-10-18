@@ -144,6 +144,8 @@
 
 `I` - insert at the start of the line
 
+`gi` - insert at the last insertion position
+
 `i` - inside
 
 `a` - including what it's inside of
@@ -365,7 +367,7 @@ map <special-argument> key-trigger key-sequence
 
 ### `<Cmd>`
 
-```
+```vim
 :command<CR>
 <Cmd>command<CR>
 ```
