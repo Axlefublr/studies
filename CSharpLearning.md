@@ -50,3 +50,19 @@ With no parameters, generates from 1 to max int
 `dotnet add Main/Main.csproj reference Library/Library.csproj` add a reference to the library project to the main project
 
 `dotnet add package PackageName` to add a nuget package
+
+## Escaping special symbols
+
+`\x23` for ascii
+
+`\u1234` for unicode
+
+## Different numbers
+
+![](img/different%20types%20of%20numbers.png)
+
+![](img/different-types-of-numbers-2.png)
+
+Types have two useful properties: `MinValue` and `MaxValue`
+
+So, you can just have the code tell you what you should use, rather than looking it up

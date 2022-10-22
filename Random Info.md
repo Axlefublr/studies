@@ -24,3 +24,7 @@ Runner.instance_.gameOver = () => {}
 ## Cunningham's law
 
 The best way to get the right answer on the Internet is not to ask a question; it's to post the wrong answer
+
+## Adding a sub prompt to a youtube channel link
+
+`?sub_confirmation=1`

@@ -11,3 +11,7 @@ Makes a gui clickthrough, but also requires
 `+ToolWindow`
 
 Even though it's a plus, it really means -
+
+## Make the gui think you clicked on the title bar
+
+`PostMessage(0xA1, 2)`
