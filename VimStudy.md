@@ -184,6 +184,10 @@
 
 `vap` - select paragraph + outside whitespace
 
+`'<` - start of the selection
+
+`'>` - end of the selection
+
 ## Marking
 
 `m*` - mark place
