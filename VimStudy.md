@@ -390,3 +390,9 @@ typebefore
 ### Built-in vim variables
 
 `v:count1` the count given for the last Normal mode command
+
+### Comments
+
+At least in the neovim extension, 
+
+`<C-/>` comments a line out in normal mode, and the selected lines in visual mode
