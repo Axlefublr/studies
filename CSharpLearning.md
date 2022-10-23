@@ -66,3 +66,19 @@ With no parameters, generates from 1 to max int
 Types have two useful properties: `MinValue` and `MaxValue`
 
 So, you can just have the code tell you what you should use, rather than looking it up
+
+## Enums
+
+By default, uses `int`
+
+By default, start a `0` and increment by one
+
+Even if you make the second key equal to 1, for example, that won't change the first one being zero by default
+
+`Weekdays.Monday` would just give its name (as a string)
+
+`(int)Weekdays.Monday` would give us the integer of monday (zero by default)
+
+You can make keys be equal to other keys.
+No need to specify the `enum` "class" in that case either
+
