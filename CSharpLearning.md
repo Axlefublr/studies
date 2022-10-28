@@ -19,6 +19,20 @@ string nummy = "5";
 int num = Convert.ToInt32(nummy);
 ```
 
+You can cast values to different values with
+
+```cs
+byte byt = (byte) int.Parse(Console.Readline());
+```
+
+That even works for stuff like `enum`s and likely classes and stuff
+
+You can use `checked ()` to make sure the type casting doesn't cut the information stored in the variable. 
+Will throw an error we can catch if it does.
+
+Instead of `Convert`, you can use `type.Parse` to parse into that type. 
+`.TryParse` returns a boolean on whether or not the information was cut
+
 ## Type getting
 
 By using the `GetType()` method, you can see what type something is, but it's not as legible as `int` or `string`, it's `System.Int32` and the like
@@ -81,4 +95,3 @@ Even if you make the second key equal to 1, for example, that won't change the f
 
 You can make keys be equal to other keys.
 No need to specify the `enum` "class" in that case either
-
