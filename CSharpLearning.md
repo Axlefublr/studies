@@ -33,6 +33,10 @@ Will throw an error we can catch if it does.
 Instead of `Convert`, you can use `type.Parse` to parse into that type. 
 `.TryParse` returns a boolean on whether or not the information was cut
 
+Use `var` for when you don't know the type the variable is going to be / it doesn't matter
+
+It requires you to initialize the variable straight away though
+
 ## Type getting
 
 By using the `GetType()` method, you can see what type something is, but it's not as legible as `int` or `string`, it's `System.Int32` and the like
