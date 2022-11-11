@@ -8,6 +8,20 @@
 
 `"0` - the last thing just yanked, not deleted
 
+`_` - black hole register
+
+`-` - last less than a line yank / delete
+
+### Registers: custom
+
+`i` - black hole register
+
+`q` - system clipboard
+
+`w` - last yank clipboard
+
+`e` - last less than a line yank / delete
+
 ## Writing and saving
 
 `:w path` - write and move the file elsewhere
@@ -56,13 +70,15 @@
 
 `g_` - go to the last non-blank character of the line
 
+### Moving around: custom made
+
 `zj` - move to previous folding section
 
 `zk` - move to next folding section
 
-`c[` - go to previous change
+`[c ]c` - go to prev / next change
 
-`c]` - go to next change
+`[e ]e` - go to prev / next error
 
 ## Search
 
@@ -120,6 +136,12 @@
 
 `gD` - go to global declaration
 
+### g Special commands: custom and vscode
+
+`gl` - go to link
+
+`gD` - open definition to the side
+
 ## Jumping
 
 `t` - jump to before symbol after the cursor
@@ -137,6 +159,10 @@
 `%` - jump to bracket
 
 `123G / 123gg` - go to absolute line
+
+`gi` - insert at the last place you inserted at
+
+`10i` - insert text *this* many times
 
 ## Inserting
 
@@ -167,6 +193,14 @@
 `c` - change
 
 `C` - change until the end of the line
+
+`Ctrl + a` - paste text last inserted in insert mode
+
+`Ctrl + o` - do one command in normal mode and come back
+
+`Ctrl + u` - delete line
+
+`Ctrl + r =` - evaluate an expression and paste its result
 
 ## Visual mode
 
@@ -246,6 +280,12 @@
 
 `gq` - format a wrapped line to be multiple lines
 
+`=` - format a text object
+
+`<< >>` - indent / outdent line
+
+`==` - autoindent
+
 ## Capitalization
 
 `gu` - uncapitalize
@@ -266,12 +306,6 @@
 
 `^r` - redo
 
-## Indenting
-
-`<< >>` - indent / outdent line
-
-`==` - autoindent
-
 ## Go to
 
 `(` - go to the last sentence
@@ -281,10 +315,6 @@
 `-` - go to first non-whitespace of previous line
 
 `+` - go to first non-whitespace of next line
-
-`[` - go to previous {} section
-
-`]` - go to next {} section
 
 `{` - go to prev blank line
 
@@ -302,7 +332,9 @@
 
 ## Vs code special
 
-`gh` - show hover tooltip
+`gh / K` - show hover tooltip
+
+`mi / ma` - multiple cursors when in selection mode
 
 Calling a vscode function via a remap:
 
@@ -315,12 +347,6 @@ Calling a vscode function via a remap:
 | `VSCodeNotifyRange(command, line1, line2, leaveSelection ,...)` <br/> `VSCodeCallRange(command, line1, line2, leaveSelection, ...)`                               | Produce linewise VSCode selection from `line1` to `line2` and invoke VSCode command. Setting `leaveSelection` to 1 keeps VSCode selection active after invoking the command.                               |
 | `VSCodeNotifyRangePos(command, line1, line2, pos1, pos2, leaveSelection ,...)` <br/> `VSCodeCallRangePos(command, line1, line2, pos1, pos2, leaveSelection, ...)` | Produce characterwise VSCode selection from `line1.pos1` to `line2.pos2` and invoke VSCode command.                                                                                                        |
 | `VSCodeNotifyVisual(command, leaveSelection, ...)` <br/> `VSCodeCallVisual(command, leaveSelection, ...)`                                                         | Produce linewise (visual line) or characterwise (visual and visual block) selection from visual mode selection and invoke VSCode command. Behaves like `VSCodeNotify/Call` when visual mode is not active. |
-
-## Commands
-
-`:vs` - split current editor to the right
-
-`:sp` - split current editor down
 
 ## Mapping
 
@@ -367,6 +393,8 @@ map <special-argument> key-trigger key-sequence
 
 `zO` - unfold every section
 
+## Text objects
+
 ## VimScript
 
 ### `<Cmd>`
@@ -394,9 +422,3 @@ typebefore
 ### Built-in vim variables
 
 `v:count1` the count given for the last Normal mode command
-
-### Comments
-
-At least in the neovim extension, 
-
-`<C-/>` comments a line out in normal mode, and the selected lines in visual mode

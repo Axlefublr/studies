@@ -1,8 +1,3 @@
-# My tags
-
--  v2 issue
--  arrow functions
-
 # Useful tags
 
 `.tag tias` -- try it and see!
@@ -22,8 +17,6 @@
 `.ask`
 
 `.d docName, docName2`
-
-`.w word` -- Dictionary
 
 # Tag commands
 
@@ -73,6 +66,6 @@ _ nothing _
 highlighted code
 ```
 
-<t:1655282000:R> -- time in seconds, relative countdown timer
+`<t:1655282000:R>` -- time in seconds, relative countdown timer
 
 <link> -- removes the embed
