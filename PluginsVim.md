@@ -44,8 +44,22 @@
 
 ### Text Objects
 
-![custom text objects](img/text-objects.png)
+[textobj-user repo](https://github.com/kana/vim-textobj-user)
+
+[entire file repo](https://github.com/kana/vim-textobj-entire)
+
+[inside indent repo](https://github.com/michaeljsmith/vim-indent-object)
+
+[inside line repo](https://github.com/kana/vim-textobj-line)
 
 ### Marks
 
 [repo](https://github.com/chentoast/marks.nvim)
+
+### Replace with register 
+
+[repo](https://github.com/vim-scripts/ReplaceWithRegister)
+
+### TitleCase 
+
+[repo](https://github.com/christoomey/vim-titlecase)
