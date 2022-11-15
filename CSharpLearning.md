@@ -100,7 +100,7 @@ Even if you make the second key equal to 1, for example, that won't change the f
 You can make keys be equal to other keys.
 No need to specify the `enum` "class" in that case either
 
-### Byref
+## Byref
 
 `in` keyword
 
@@ -117,3 +117,7 @@ So you could use `void` and return nothing, that will still change what you pass
 If you want to introduce this behavior to stuff that gets passed by value, use `ref`
 
 `out` is essentially return. I don't like it but it does exist. Yeah, it is also by reference
+
+## By value vs by reference
+
+![](img/by-value-vs-by-reference.png)

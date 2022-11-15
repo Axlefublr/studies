@@ -63,3 +63,7 @@
 ### TitleCase 
 
 [repo](https://github.com/christoomey/vim-titlecase)
+
+### Commentary
+
+[repo](https://github.com/tpope/vim-commentary)
