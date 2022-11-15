@@ -67,3 +67,7 @@
 ### Commentary
 
 [repo](https://github.com/tpope/vim-commentary)
+
+### Ahk language support
+
+[repo](https://github.com/huleiak47/vim-AHKcomplete)
