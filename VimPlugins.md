@@ -71,3 +71,5 @@
 ### Ahk language support
 
 [repo](https://github.com/huleiak47/vim-AHKcomplete)
+
+Can't say whether this plugin is good or bad, I just needed to get a filetype of ahk files and it gives me that

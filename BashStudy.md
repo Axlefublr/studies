@@ -145,3 +145,33 @@ Lets you create multiple folders at a time
 ## See the number of the last error
 
 `echo $?`
+
+## Create multiple files in a range
+
+`filename{1..10}` will create filename1, filename2, filename3, etc up to 10 (including)
+
+## Creating a file in a different time
+
+`-d tomorrow` would set the time of the creation of the file to tomorrow's date
+
+## Tear up the contents of a file without deleting it
+
+`shred`
+
+## A quick explanation of a command
+
+`whatis`
+
+`man` for an actual manual
+
+`whereis` to check where the command executable lies 
+
+`sort` sorts a file's contents alphabetically
+
+`find` to find a file `-name` for the name you provide
+
+`ping` 
+
+`neofetch`
+
+`cal` - ncal
