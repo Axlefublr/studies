@@ -395,10 +395,6 @@ map <special-argument> key-trigger key-sequence
 
 `zO` - unfold every section
 
-## Text objects
-
-`s` - sentence
-
 ## VimScript
 
 ### `<Cmd>`
