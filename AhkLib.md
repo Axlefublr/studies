@@ -12,6 +12,8 @@ https://learn.microsoft.com/en-us/windows/console/allocconsole
 
 [Whole project](https://github.com/thqby/ahk2_lib)
 
+[Sort](https://github.com/thqby/ahk2_lib/blob/master/sort.ahk)
+
 [Print](https://github.com/thqby/ahk2_lib/blob/master/print.ahk)
 
 [JSON library](https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk)
