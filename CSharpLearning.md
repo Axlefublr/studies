@@ -144,7 +144,7 @@ If you just just made `age` public and interacted with it directly, you wouldn't
 
 That said, that can often be unnecessary
 
-## Classes
+## Access modifiers
 
 `sealed` removes the ability to extend (make a child of) the class
 
