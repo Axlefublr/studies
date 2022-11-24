@@ -75,7 +75,7 @@ With no parameters, generates from 1 to max int
 
 `\u1234` for unicode
 
-## Different numbers
+## Types of numbers and their possible values
 
 ![](img/different%20types%20of%20numbers.png)
 
@@ -118,6 +118,40 @@ If you want to introduce this behavior to stuff that gets passed by value, use `
 
 `out` is essentially return. I don't like it but it does exist. Yeah, it is also by reference
 
-## By value vs by reference
+## By values vs by reference types
 
 ![](img/by-value-vs-by-reference.png)
+
+## Properties
+
+```cs
+class Human {
+   private int age;
+   public int Age {
+      get {
+         return age;
+      }
+      set {
+         age = value;
+      }
+   }
+}
+```
+
+The reason for this existing: you can have logic surrounding both actions, that could either do something else required as well, or check the type, or whatever else
+
+If you just just made `age` public and interacted with it directly, you wouldn't be able to program in specific behavior
+
+That said, that can often be unnecessary
+
+## Classes
+
+`sealed` removes the ability to extend (make a child of) the class
+
+`internal` - access to the class only in the same project
+
+`private` - not sure yet
+
+`public` - accessible from anywhere
+
+`protected` - not sure yet
