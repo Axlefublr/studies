@@ -20,3 +20,13 @@ _ _
 ```
 
 Multiply crosses. Whichever top number multiplied by opposing low number is bigger, that whole number is bigger
+
+## Percentages are reversible
+
+6% of 50
+
+is the same as
+
+50% of 6
+
+which is much easier to calculate

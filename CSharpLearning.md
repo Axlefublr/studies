@@ -150,8 +150,8 @@ That said, that can often be unnecessary
 
 `internal` - access to the class only in the same project
 
-`private` - not sure yet
+`private` - access only within the class
 
 `public` - accessible from anywhere
 
-`protected` - not sure yet
+`protected` - accessible from within the class and all its children
