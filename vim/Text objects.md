@@ -14,6 +14,10 @@
 
 `[` - []
 
-`m` - block of code
+`)` - () block
+
+`}` - {} block
+
+`]` - [] block
 
 `t` - tag
