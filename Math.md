@@ -74,3 +74,16 @@ Same parity (evenness or oddness)
 4^3^2 = 262144
 5^4^3^2 = (has 183231 digits)
 ```
+
+## Wilson's theorem
+
+((j - 1)! + 1) // j = definitely an integer and definitely a prime
+
+## Bertrand's postulate
+
+```cs
+{
+   m >= 2
+   m < p < 2m
+}
+```

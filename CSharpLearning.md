@@ -155,3 +155,9 @@ That said, that can often be unnecessary
 `public` - accessible from anywhere
 
 `protected` - accessible from within the class and all its children
+
+## Polymorphism
+
+`virtual` - this method can be overriden in a child class
+
+`override` - this method overrides this same method in a parent class
