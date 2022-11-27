@@ -148,6 +148,8 @@ That said, that can often be unnecessary
 
 `sealed` removes the ability to extend (make a child of) the class
 
+makes the current overriden method the final override, not letting you override it again in a child class
+
 `internal` - access to the class only in the same project
 
 `private` - access only within the class
@@ -161,3 +163,11 @@ That said, that can often be unnecessary
 `virtual` - this method can be overriden in a child class
 
 `override` - this method overrides this same method in a parent class
+
+## Overriding operators 
+
+These operators are available for overriding
+
+![](img/Overriding-parameters.png)
+
+These `+=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=` operators can't be overriden, but use the overrides of the operators they use
