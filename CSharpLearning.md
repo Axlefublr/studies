@@ -41,6 +41,8 @@ It requires you to initialize the variable straight away though
 
 By using the `GetType()` method, you can see what type something is, but it's not as legible as `int` or `string`, it's `System.Int32` and the like
 
+By using `typeof()` you can get the "System.Whatever" version of the type, that can be compared nicely with the GetType() thing
+
 ## Random requires an object
 
 ```cs
@@ -158,11 +160,15 @@ makes the current overriden method the final override, not letting you override 
 
 `protected` - accessible from within the class and all its children
 
+`private protected` - either private, or accessible by a child class, but only in the same project
+
 ## Polymorphism
 
 `virtual` - this method can be overriden in a child class
 
 `override` - this method overrides this same method in a parent class
+
+`new` - method hiding
 
 ## Overriding operators 
 
