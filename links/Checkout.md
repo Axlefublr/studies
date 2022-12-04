@@ -1,6 +1,6 @@
 ## Youtube
 
-[Chunjee's BigA library rundown](https://www.youtube.com/watch?v=NW-lfR6_OHE&ab_channel=Joe-AUTOHOTKEYGuru)
+
 
 ## Not youtube
 

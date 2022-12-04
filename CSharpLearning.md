@@ -181,3 +181,61 @@ These `+=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=` operators can't be overriden, b
 ## MethodBase.GetCurrentMethod()
 
 Returns a `System.Reflection.MethodBase` object that has information about the current method
+
+## System.IO
+
+### .DriveInfo
+
+`GetDrives()` returns an array
+
+`AvailableFreeSpace` указывает на объем доступного свободного места на диске в байтах;
+
+`DriveFormat`        получает имя файловой системы;
+
+`DriveType`          представляет тип диска;
+
+`IsReady`            готов ли диск (например, DVD-диск может быть не вставлен в дисковод);
+
+`Name`               получает имя диска;
+
+`TotalFreeSpace`     получает общий объем свободного места на диске в байтах;
+
+`TotalSize`          общий размер диска в байтах;
+
+`VolumeLabel`        получает или устанавливает метку тома.
+
+### .Directory
+
+`CreateDirectory(path)`     создает каталог по указанному пути;
+
+`Delete(path)`              удаляет каталог по указанному пути;
+
+`Exists(path)`              определяет, существует ли каталог по указанному пути;
+
+`GetDirectories(path)`      получает список каталогов в каталоге path;
+
+`GetFiles(path)`            получает список файлов в каталоге path;
+
+`Move(source, destination)` перемещает каталог;
+
+`GetParent(path)`           получение родительского каталога.
+
+### .DirectoryInfo
+
+`Create()`                 создает каталог;
+
+`CreateSubdirectory(path)` создает подкаталог по указанному пути path;
+
+`Delete()`                 удаляет каталог;
+
+Свойство `Exists`          определяет, существует ли каталог;
+
+`GetDirectories()`         получает список каталогов;
+
+`GetFiles()`               получает список файлов;
+
+`MoveTo(destDirName)`      перемещает каталог;
+
+Свойство `Parent`          получение родительского каталога;
+
+Свойство `Root`            получение корневого каталога.
