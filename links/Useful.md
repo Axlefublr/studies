@@ -4,7 +4,23 @@
 
 [regex generator](https://ibnuhx.com/regex-generator/)
 
+[regex one](https://regexone.com/)
+
+[docsify](https://docsify.js.org/#/)
+
+[color generator](https://coolors.co/generate)
+
+[color generator 2](https://color.adobe.com/create/color-wheel)
+
+## Information
+
+[ascii codes](https://theasciicode.com.ar/)
+
+[sounds](https://www.myinstants.com/index/ru/)
+
 ## Software
+
+[windows64](https://windows64.net/)
 
 [vpn gate](https://www.vpngate.net/en/download.aspx)
 
