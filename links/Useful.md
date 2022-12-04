@@ -1,4 +1,10 @@
+## Tools
+
 [color picker](https://docs.microsoft.com/en-us/windows/powertoys/color-picker)
+
+[regex generator](https://ibnuhx.com/regex-generator/)
+
+## Software
 
 [vpn gate](https://www.vpngate.net/en/download.aspx)
 
