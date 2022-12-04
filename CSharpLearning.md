@@ -177,3 +177,7 @@ These operators are available for overriding
 ![](img/Overriding-parameters.png)
 
 These `+=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=` operators can't be overriden, but use the overrides of the operators they use
+
+## MethodBase.GetCurrentMethod()
+
+Returns a `System.Reflection.MethodBase` object that has information about the current method
