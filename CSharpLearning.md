@@ -239,3 +239,11 @@ Returns a `System.Reflection.MethodBase` object that has information about the c
 Свойство `Parent`          получение родительского каталога;
 
 Свойство `Root`            получение корневого каталога.
+
+### .File
+
+static, so used for one-off operations
+
+### .FileInfo
+
+requires an object, so used for multiple operations
