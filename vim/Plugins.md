@@ -34,9 +34,11 @@
 
 [vim get good](https://github.com/ThePrimeagen/vim-be-good)
 
-### Easymotion (vim)
+### Easymotion 
 
 [repo](https://github.com/easymotion/vim-easymotion)
+
+[lua version](https://github.com/phaazon/hop.nvim)
 
 ### CamelCaseMotion
 
