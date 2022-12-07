@@ -14,6 +14,8 @@
 
 [repo](https://github.com/tpope/vim-surround)
 
+[lua version](https://github.com/kylechui/nvim-surround)
+
 ### Nightfox theme
 
 [repo](https://github.com/EdenEast/nightfox.nvim)
