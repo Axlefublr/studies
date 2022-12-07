@@ -12,6 +12,4 @@
 
 [hop](https://github.com/phaazon/hop.nvim)
 
-[vimscript to lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
-
-[vimscript to lua2](https://vonheikemen.github.io/devlog/tools/build-your-first-lua-config-for-neovim/)
+[nvim surround](https://github.com/kylechui/nvim-surround)
