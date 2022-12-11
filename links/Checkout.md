@@ -9,7 +9,3 @@
 ## Vim 
 
 [vim folding](https://www.linux.com/training-tutorials/vim-tips-folding-fun/)
-
-[hop](https://github.com/phaazon/hop.nvim)
-
-[nvim surround](https://github.com/kylechui/nvim-surround)

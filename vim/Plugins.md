@@ -16,14 +16,6 @@
 
 [lua version](https://github.com/kylechui/nvim-surround)
 
-### Nightfox theme
-
-[repo](https://github.com/EdenEast/nightfox.nvim)
-
-### Everforest theme
-
-[repo](https://github.com/sainnhe/everforest)
-
 ### Vim Polyglot
 
 [repo](https://github.com/sheerun/vim-polyglot)
@@ -81,3 +73,21 @@ Can't say whether this plugin is good or bad, I just needed to get a filetype of
 ### More text objects
 
 [repo](https://github.com/wellle/targets.vim)
+
+## Themes
+
+### Nightfox theme
+
+[repo](https://github.com/EdenEast/nightfox.nvim)
+
+### Everforest theme
+
+[repo](https://github.com/sainnhe/everforest)
+
+### Gruvbox material
+
+[repo](https://github.com/sainnhe/gruvbox-material)
+
+### Tender
+
+[repo](https://github.com/jacoborus/tender.vim)

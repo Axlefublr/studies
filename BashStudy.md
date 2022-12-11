@@ -158,7 +158,7 @@ Lets you create multiple folders at a time
 
 `shred`
 
-## A quick explanation of a command
+## Cool commands
 
 `whatis`
 
@@ -175,3 +175,7 @@ Lets you create multiple folders at a time
 `neofetch`
 
 `cal` - ncal
+
+## Zsh keybindings
+
+[gist](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df)

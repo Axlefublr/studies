@@ -247,3 +247,9 @@ static, so used for one-off operations
 ### .FileInfo
 
 requires an object, so used for multiple operations
+
+## Serialization
+
+`[Serializable]` before the class to make it serializable
+
+`[NonSerialized]` mark specific parts of the class as not serializable
