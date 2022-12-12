@@ -253,3 +253,9 @@ requires an object, so used for multiple operations
 `[Serializable]` before the class to make it serializable
 
 `[NonSerialized]` mark specific parts of the class as not serializable
+
+## Errors
+
+![](img/Error%20types%201.png)
+
+![](img/Error%20types%202.png)
