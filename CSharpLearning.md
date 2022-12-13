@@ -259,3 +259,19 @@ requires an object, so used for multiple operations
 ![](img/Error%20types%201.png)
 
 ![](img/Error%20types%202.png)
+
+## Delegates
+
+### Built in
+
+![](img/Func.png)
+
+![](img/Action%20and%20Predicate.png)
+
+---
+
+Ковариантность — you can assign a method that returns a class derivative of the actual returned class
+
+Контравариантность — you can assign a method that returns the base class of the actual returned class
+
+Ковариация — ability to assign methods to a delegate that have different signatures, but are derivative of the main method
