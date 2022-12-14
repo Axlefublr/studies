@@ -1,44 +1,10 @@
-### Neovim
-
-[repository](https://github.com/vscode-neovim/vscode-neovim)
+# [Neovim](https://github.com/vscode-neovim/vscode-neovim)
 
 [vscode interaction](https://github.com/vscode-neovim/vscode-neovim#invoking-vscode-actions-from-neovim)
 
 [using lua for init.lua](https://github.com/nanotee/nvim-lua-guide)
 
-### Easy align
-
-[repository](https://github.com/junegunn/vim-easy-align)
-
-### Surround
-
-[repo](https://github.com/tpope/vim-surround)
-
-[lua version](https://github.com/kylechui/nvim-surround)
-
-### Vim Polyglot
-
-[repo](https://github.com/sheerun/vim-polyglot)
-
-### Repeat
-
-[tpope/vim-repeat](https://github.com/tpope/vim-repeat)
-
-### Git gud at vim
-
-[vim get good](https://github.com/ThePrimeagen/vim-be-good)
-
-### Easymotion 
-
-[repo](https://github.com/easymotion/vim-easymotion)
-
-[lua version](https://github.com/phaazon/hop.nvim)
-
-### CamelCaseMotion
-
-[repo](https://github.com/bkad/CamelCaseMotion)
-
-### Text Objects
+# Text Objects
 
 [textobj-user repo](https://github.com/kana/vim-textobj-user)
 
@@ -48,46 +14,54 @@
 
 [inside line repo](https://github.com/kana/vim-textobj-line)
 
-### Marks
+[more text objects](https://github.com/wellle/targets.vim)
 
-[repo](https://github.com/chentoast/marks.nvim)
+# Themes
 
-### Replace with register 
+[Nightfox theme](https://github.com/EdenEast/nightfox.nvim)
 
-[repo](https://github.com/vim-scripts/ReplaceWithRegister)
+[Everforest theme](https://github.com/sainnhe/everforest)
 
-### TitleCase 
+[Gruvbox material](https://github.com/sainnhe/gruvbox-material)
 
-[repo](https://github.com/christoomey/vim-titlecase)
+[Tender](https://github.com/jacoborus/tender.vim)
 
-### Commentary
+[Melange](https://github.com/savq/melange)
 
-[repo](https://github.com/tpope/vim-commentary)
+# Easymotion
 
-### Ahk language support
+[viml version](https://github.com/easymotion/vim-easymotion)
 
-[repo](https://github.com/huleiak47/vim-AHKcomplete)
+[lua version](https://github.com/phaazon/hop.nvim)
 
-Can't say whether this plugin is good or bad, I just needed to get a filetype of ahk files and it gives me that
+[advanced hop](https://github.com/phaazon/hop.nvim/wiki/Advanced-Hop)
 
-### More text objects
+# Surround
 
-[repo](https://github.com/wellle/targets.vim)
+[viml version](https://github.com/tpope/vim-surround)
 
-## Themes
+[lua version](https://github.com/kylechui/nvim-surround)
 
-### Nightfox theme
+# Other plugins
 
-[repo](https://github.com/EdenEast/nightfox.nvim)
+[Easy align](https://github.com/junegunn/vim-easy-align)
 
-### Everforest theme
+[Vim Polyglot](https://github.com/sheerun/vim-polyglot)
 
-[repo](https://github.com/sainnhe/everforest)
+[Repeat](https://github.com/tpope/vim-repeat)
 
-### Gruvbox material
+[Git gud at vim](https://github.com/ThePrimeagen/vim-be-good)
 
-[repo](https://github.com/sainnhe/gruvbox-material)
+[CamelCaseMotion](https://github.com/bkad/CamelCaseMotion)
 
-### Tender
+[Marks](https://github.com/chentoast/marks.nvim)
 
-[repo](https://github.com/jacoborus/tender.vim)
+[Replace with register](https://github.com/vim-scripts/ReplaceWithRegister)
+
+[TitleCase](https://github.com/christoomey/vim-titlecase)
+
+[Commentary](https://github.com/tpope/vim-commentary)
+
+[Ahk language support](https://github.com/huleiak47/vim-AHKcomplete)
+
+Can't say whether this plugin is good or bad, I just needed to get a filetype for ahk files and it gives me that

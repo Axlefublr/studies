@@ -5,3 +5,5 @@
 [elevator game](https://play.elevatorsaga.com/)
 
 [openai](https://chat.openai.com/auth/login)
+
+[character ai](https://beta.character.ai/)

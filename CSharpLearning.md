@@ -8,6 +8,8 @@ Char uses `''`
 
 String uses `""`
 
+Use `string.Empty` instead of `stringVar = ""`, it's better in terms of resources that way
+
 ## Type conversion
 
 `Convert` class
