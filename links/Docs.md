@@ -5,3 +5,9 @@
 [dll calls](https://docs.microsoft.com/en-us/windows/win32/api/)
 
 [ahk v1 docs](https://www.autohotkey.com/docs/Tutorial.htm)
+
+## Telegram.Bot
+
+[telegram api](https://core.telegram.org/api)
+
+[telegram api docs](https://telegrambots.github.io/book/index.html)

@@ -1,4 +1,18 @@
-﻿## Clickthrough
+﻿## Allocate a console to a process
+
+https://learn.microsoft.com/en-us/windows/console/allocconsole
+
+[The ahk library for it](https://github.com/Onimuru/Console) (v2 beta 9)
+
+## Change display brightness
+
+[gist](https://gist.github.com/TLMcode/b56c71ef4785f1ef8daada9c36a38db4)
+
+## Playing multiple sounds at a time
+
+[docs](https://learn.microsoft.com/en-us/windows/win32/multimedia/the-playsound-function)
+
+## Clickthrough
 
 `+E0x20`
 

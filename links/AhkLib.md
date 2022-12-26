@@ -1,14 +1,16 @@
-## v2 beta change notes
+## v2 
 
-[](https://www.autohotkey.com/boards/viewtopic.php?f=24&p=488852&sid=72937eef25b7e8adbb65475a5c150cab#p488852)
+[beta change notes](https://www.autohotkey.com/boards/viewtopic.php?f=24&p=488852&sid=72937eef25b7e8adbb65475a5c150cab#p488852)
 
-## Allocate a console to a process
+[rc change notes](https://www.autohotkey.com/boards/viewtopic.php?f=24&t=110696)
 
-https://learn.microsoft.com/en-us/windows/console/allocconsole
+[download](https://www.autohotkey.com/download/2.0/)
 
-[The ahk library for it](https://github.com/Onimuru/Console) (v2 beta 9)
+## aliztori
 
-## thqby's libraries
+[MouseInZone](https://github.com/aliztori/AlizMod/blob/main/MouseInZone.ahk)
+
+## thqby
 
 [Whole project](https://github.com/thqby/ahk2_lib)
 
@@ -32,12 +34,18 @@ https://learn.microsoft.com/en-us/windows/console/allocconsole
 
 tariqporter/Gdip [GDip tutorial](https://github.com/tariqporter/Gdip)
 
-## Descolada's libraries
+## Descolada
 
 [Whole project](https://github.com/Descolada/AHK-v2-libraries)
 
 [String library](https://github.com/Descolada/AHK-v2-libraries/blob/main/Lib/String.ahk)
 
+[Array library](https://github.com/Descolada/AHK-v2-libraries/blob/main/Lib/Array.ahk)
+
 ## reiwa
 
 [clock](https://github.com/rbstrachan/ahk-clock)
+
+## TigerLily
+
+[screen dimmer](https://github.com/tigerlily-dev/tigerlilys-Screen-Dimmer/)

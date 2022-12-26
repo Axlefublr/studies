@@ -18,6 +18,8 @@
 
 # Themes
 
+[Lualine](https://github.com/nvim-lualine/lualine.nvim)
+
 [Nightfox theme](https://github.com/EdenEast/nightfox.nvim)
 
 [Everforest theme](https://github.com/sainnhe/everforest)
@@ -27,6 +29,8 @@
 [Tender](https://github.com/jacoborus/tender.vim)
 
 [Melange](https://github.com/savq/melange)
+
+[Edge](https://github.com/sainnhe/edge)
 
 # Easymotion
 
@@ -43,6 +47,8 @@
 [lua version](https://github.com/kylechui/nvim-surround)
 
 # Other plugins
+
+[Move](https://github.com/fedepujol/move.nvim)
 
 [Easy align](https://github.com/junegunn/vim-easy-align)
 
@@ -65,3 +71,7 @@
 [Ahk language support](https://github.com/huleiak47/vim-AHKcomplete)
 
 Can't say whether this plugin is good or bad, I just needed to get a filetype for ahk files and it gives me that
+
+[Last place](https://github.com/farmergreg/vim-lastplace)
+
+[css colors](https://github.com/ap/vim-css-color)
