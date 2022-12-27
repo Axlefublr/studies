@@ -29,3 +29,17 @@ Even though it's a plus, it really means -
 ## Make the gui think you clicked on the title bar
 
 `PostMessage(0xA1, 2)`
+
+## @things the v2 extension supports
+
+* exception
+* extends
+* lends
+* interments
+* modifies
+* private
+* protected
+* returns?
+* throws
+* type
+* example - Use the `<caption>` tag to give a caption (recommended). Everything after is code
