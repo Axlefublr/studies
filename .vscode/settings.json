@@ -1,3 +1,7 @@
 {
-   "markdown.validate.ignoredLinks": ["t:1655282000:R"]
+   "markdown.validate.ignoredLinks": [
+      "t:1655282000:R",
+      "img/Possessions%2012.png",
+      "img/Possessions%2034.png"
+   ]
 }
