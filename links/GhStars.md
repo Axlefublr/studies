@@ -8,6 +8,10 @@
 
 [dlp](https://github.com/yt-dlp/yt-dlp)
 
+#### Output template
+
+[link](https://www.youtube.com/playlist?list=PLAwWN1A7O-OT5fnijyD-LGIHnw3Eel0ht)
+
 ### Shell check
 
 [website](https://www.shellcheck.net/)
