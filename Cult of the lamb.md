@@ -16,7 +16,7 @@
 
 ![](img/Work%20and%20Worship%2012.png)
 
-![](img/Work%20and%20Worship%2012.png)
+![](img/Work%20and%20Worship%2034.png)
 
 ## Law & Order
 

@@ -161,6 +161,8 @@ This way you can easily set up a few commands that might take a while and not ha
 
 `&&` is that, but won't execute the following commands if one fails
 
+`||` — Execute right command only if left command failed
+
 Use a ` & ` at the end of the command to run it in the background
 
 ## Paths and files

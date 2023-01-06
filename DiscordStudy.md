@@ -69,3 +69,5 @@ highlighted code
 `<t:1655282000:R>` -- time in seconds, relative countdown timer
 
 <link> -- removes the embed
+
+`;embded=True&text='hello everyone'` embed
