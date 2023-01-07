@@ -43,3 +43,40 @@ Even though it's a plus, it really means -
 * throws
 * type
 * example - Use the `<caption>` tag to give a caption (recommended). Everything after is code
+    
+## Open waveaudio
+
+```javascript
+new SoundBoard("zoom", "C:\Users\***\Music\zoom.wav", "Numpad1")
+new SoundBoard("boxout", "C:\Users\***\Music\boxout.wav", "Numpad2")
+new SoundBoard("test", "C:\Users\***\Music\test.mp3", "Numpad3")
+
+class SoundBoard {
+   __New(alias, path, key) {
+      this.alias := alias ;unused
+      this.path := path
+      this.key := key
+      this.ext := this.GetExt()
+      this.Register()
+   }
+   GetExt() {
+      SplitPath, % this.path,,,ext
+      return ext
+   }
+   mciSend(command) {
+      DllCall("winmm\mciSendStringW", "Str", command, "Str", "", "UInt", 0, "Ptr", 0)
+   }
+   Register() {
+      static map := {"mp3": "waveaudio", "wav": "waveaudio"}
+      this.boundObj := ObjBindMethod(this, "Play")
+      temp := this.boundObj
+      Hotkey, % this.key, % temp
+      this.mciSend(Format("open {1} type {2}", this.path, map[this.ext]))
+   }
+   Play() {
+      this.mciSend("play " this.path " from 0")
+   }
+}
+```
+
+[multimedia command strings](https://learn.microsoft.com/en-us/windows/win32/multimedia/multimedia-command-strings?redirectedfrom=MSDN)
