@@ -32,10 +32,7 @@ Even though it's a plus, it really means -
 
 ## @things the v2 extension supports
 
-* exception
 * extends
-* lends
-* interments
 * modifies
 * private
 * protected

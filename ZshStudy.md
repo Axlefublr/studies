@@ -57,8 +57,6 @@ There *have* to be `[]` with spaces between them
 
 `top` see the top processes
 
-`find` to find a file `-name` for the name you provide
-
 `whatis` a more human quick explanation of a command
 
 `man` for an actual manual
@@ -66,6 +64,20 @@ There *have* to be `[]` with spaces between them
 `whereis` to check where the command executable lies 
 
 `truncate -s size-int file.txt` deletes the contents of a file, without deleting the file itself
+
+### Find
+
+`find` to find a file 
+
+`-name` for the name you provide
+
+`-type` to specify f or d for file or directory
+
+`-exec command {} \;` to execute a command for each file / directory that gets returned
+
+`-delete` to delete the results
+
+`-not -path GLOB` exclude GLOB from showing up in the results
 
 ## Cool commands
 
